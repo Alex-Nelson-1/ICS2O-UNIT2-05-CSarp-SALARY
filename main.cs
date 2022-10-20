@@ -20,7 +20,6 @@ class Program
         hours = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter your wage");
         wage = Convert.ToInt32(Console.ReadLine());
-        
         //Process
         pay = hours * wage * (1 - TAX_RATE);
         taxes = hours * wage * TAX_RATE;
