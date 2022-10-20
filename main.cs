@@ -22,11 +22,11 @@ class Program
         wage = Convert.ToInt32(Console.ReadLine());
         
         //Process
-        pay = hours * wage * (1-TAX_RATE);
+        pay = hours * wage * (1 - TAX_RATE);
         taxes = hours * wage * TAX_RATE;
         //Output
-        Console.WriteLine ("Your pay will be: " + pay.ToString("0.00") + ". ");
-        Console.WriteLine ("The government takes: " + taxes.ToString("0.00") + ". ");
-        Console.WriteLine ("\nDone");
+        Console.WriteLine("Your pay will be: " + pay.ToString("0.00") + ". ");
+        Console.WriteLine("The government takes: " + taxes.ToString("0.00") + ". ");
+        Console.WriteLine("\nDone");
     }
 }
