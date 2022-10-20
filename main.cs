@@ -6,19 +6,19 @@ using System;
 
 class Program
 {
-    public static void Main (string[] args)
+    public static void Main(string[] args)
     {
         double hours;
         double wage;
         double TAX_RATE = 0.18;
         double pay;
         double taxes;
-        Console.WriteLine ("This program calculates your salary");
-        Console.WriteLine ("");
+        Console.WriteLine("This program calculates your salary");
+        Console.WriteLine("");
         //Input
-        Console.WriteLine ("Enter your amount of hours worked");
+        Console.WriteLine("Enter your amount of hours worked");
         hours = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine ("Enter your wage");
+        Console.WriteLine("Enter your wage");
         wage = Convert.ToInt32(Console.ReadLine());
         
         //Process
